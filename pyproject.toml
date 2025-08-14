@@ -1,0 +1,16 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools"]
+
+[project]
+name = "mygeopy"
+version = "0.1.0a0"
+description = "My Python package for working with geometry."
+authors = [{name = "Ben Lew", email="lew@baeri.org"}]
+license = "MIT"
+license-files = ["LICENSE.txt"]
+
+[project.urls]
+Homepage = "https://github.com/Ben-Lew/mygeopy"
+[project.optional-dependencies]
+tests = ["pytest"]
