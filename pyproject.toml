@@ -10,10 +10,11 @@ authors = [{name = "Ben Lew", email="lew@baeri.org"}]
 license = "MIT"
 license-files = ["LICENSE.txt"]
 
+
 [project.urls]
 Homepage = "https://github.com/Ben-Lew/mygeopy"
 [project.optional-dependencies]
-tests = ["pytest"]
+tests = ["pytest","numpy"]
 
 [tool.pytest.ini_options]
 addopts = "--doctest-modules"
