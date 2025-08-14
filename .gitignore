@@ -1,3 +1,7 @@
 *__*
 *pycache*
 *ipynb
+.DS_Store
+*whl
+build
+egg-info
